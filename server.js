@@ -10,7 +10,6 @@ http.createServer((req, res) => {
     let url = req.url
 
     if(url == '/PcMemoria'){
-        <div>Grafico</div>
         res.end(JSON.stringify(PcMemoria, null, 2))
     }else{
         res.end(bem)
